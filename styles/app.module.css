@@ -1,0 +1,30 @@
+.background {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  background: url(../public/Player.png);
+  background-position: center 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rectangles {
+  position: fixed;
+  bottom: 0;
+}
+
+.rectangle1 {
+  height: 65%;
+  flex-shrink: 0;
+  background-color: #1b2c50;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.rectangle2 {
+  height: 35%;
+  flex-shrink: 0;
+  background-color: #f4f1ea;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+
