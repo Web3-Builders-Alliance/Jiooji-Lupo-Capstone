@@ -28,6 +28,8 @@ th {
 }
 
 th {
+  position: sticky;
+  top: 0;
   background-color: #5f1f1a;
   height: 2.4rem;
 }
