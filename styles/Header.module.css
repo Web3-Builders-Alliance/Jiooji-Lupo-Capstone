@@ -15,7 +15,7 @@
   position: fixed;
   top: 0;
   display: flex;
-  width: 70%;
+  width: 55%;
   padding: 21px 40px;
   justify-content: space-between;
   align-items: center;
@@ -31,10 +31,10 @@
 .headerText {
   display: flex;
   width: 50%;
-  font-weight: 600;
+  font-weight: 700;
   font-size: larger;
   padding: 0 1rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .protocol {

@@ -1,0 +1,49 @@
+@media screen and (max-width: 1300px) {
+  .main {
+    width: 100% !important;
+  }
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  background: url("/Player.png");
+  background-position: center 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.main {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  height: 65%;
+  width: 60%;
+}
+
+.claim {
+  font-weight: 600;
+  padding: 0.4rem 1.6rem;
+  background-color: #5f1f1a;
+  border-radius: 2rem;
+}
+
+.claim:hover {
+  background-color: #793c38;
+  box-shadow: none;
+}
+
+.claim:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.predictions {
+  text-align: center;
+  align-self: stretch;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
